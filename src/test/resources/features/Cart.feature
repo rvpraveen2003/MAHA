@@ -27,12 +27,12 @@ Feature: Validate product in Basket is present or not
     Then user enter the "twetwetwet@dfgd.com" as mailid
     Then user click continue button
     Then user should be see error message "We cannot find an account with that email address"
-    Then user enter the "8190068003" as mailid
+    Then user enter the "mahaautomation2011@gmail.com" as mailid
     Then user click continue button
     Then user enter the "password" as password
     Then user click signin button
     Then user should be see error message "Your password is incorrect"
-    Then user enter the "magathi" as password
+    Then user enter the "mahaautomation123" as password
     Then user click signin button
     Then user should be see homepage
     Then user enter "iphone 8 64 GB" in Search page
@@ -44,9 +44,9 @@ Feature: Validate product in Basket is present or not
     Then user click Cart button
     Then user check added product in basket page
     Then user logout
-    Then user enter the "8190068003" as mailid
+    Then user enter the "mahaautomation2011@gmail.com" as mailid
     Then user click continue button
-    Then user enter the "magathi" as password
+    Then user enter the "mahaautomation123" as password
     Then user click signin button
     Then user click Cart button
     Then user check added product in basket page
